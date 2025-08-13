@@ -93,8 +93,22 @@ def generate_index_page(subfolders, cards_json_filename="cards.json"):
             width: 100%;
             padding: 10px;
             font-size: 1.1em;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             box-sizing: border-box;
+        }
+        button#backButton {
+            display: none;
+            margin-bottom: 20px;
+            padding: 8px 15px;
+            font-size: 1em;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        button#backButton:hover {
+            background-color: #0056b3;
         }
         ul {
             list-style: none;
@@ -128,13 +142,14 @@ def generate_index_page(subfolders, cards_json_filename="cards.json"):
         /* Colored card titles with subtle shadow for readability */
         strong {
             font-weight: 700;
-            text-shadow: 0 0 1px rgba(0,0,0,0.6);
+            text-shadow: 0 0 3px rgba(0,0,0,0.6);
         }
     </style>
 </head>
 <body>
 <h1>Card Gallery</h1>
 <input type="search" id="searchInput" placeholder="Search cards by name or text...">
+<button id="backButton">⬅ Back</button>
 <div id="searchResults"></div>
 <ul id="folderList" style="display:block;">
 """
@@ -147,6 +162,7 @@ def generate_index_page(subfolders, cards_json_filename="cards.json"):
 const searchInput = document.getElementById('searchInput');
 const searchResults = document.getElementById('searchResults');
 const folderList = document.getElementById('folderList');
+const backButton = document.getElementById('backButton');
 let cards = [];
 
 fetch('""" + cards_json_filename + r"""')
@@ -160,10 +176,13 @@ searchInput.addEventListener('input', () => {
   if (query.length === 0) {
     searchResults.innerHTML = '';
     folderList.style.display = 'block';
+    backButton.style.display = 'none';
     return;
   }
 
   folderList.style.display = 'none';
+  backButton.style.display = 'inline-block';
+
   const filtered = cards.filter(card =>
     card.filename.toLowerCase().includes(query) ||
     card.text.toLowerCase().includes(query)
@@ -185,6 +204,12 @@ searchInput.addEventListener('input', () => {
       </div>
     </div>
   `).join('');
+});
+
+backButton.addEventListener('click', () => {
+  searchInput.value = '';
+  searchInput.dispatchEvent(new Event('input'));
+  searchInput.focus();
 });
 </script>
 </body>
