@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Card Gallery</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 700px; margin: auto; }
+        h1 { text-align: center; }
+        input[type="search"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 8px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .search-result {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .search-result img {
+            max-width: 60px;
+            max-height: 90px;
+            border: 1px solid #ccc;
+        }
+        .search-result div {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+<h1>Card Gallery</h1>
+<input type="search" id="searchInput" placeholder="Search cards by name or text...">
+<div id="searchResults"></div>
+<ul id="folderList" style="display:block;">
+<li><a href="Spies.html">Spies</a></li>
+<li><a href="Pyromancers.html">Pyromancers</a></li>
+<li><a href="Leaders.html">Leaders</a></li>
+<li><a href="Factionless.html">Factionless</a></li>
+<li><a href="Legion.html">Legion</a></li>
+<li><a href="Oria.html">Oria</a></li>
+<li><a href="Cultists.html">Cultists</a></li>
+
+</ul>
+<script>
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+const folderList = document.getElementById('folderList');
+let cards = [];
+
+fetch('cards.json')
+  .then(res => res.json())
+  .then(data => {{
+    cards = data;
+  }});
+
+searchInput.addEventListener('input', () => {{
+  const query = searchInput.value.trim().toLowerCase();
+  if (query.length === 0) {{
+    searchResults.innerHTML = '';
+    folderList.style.display = 'block';
+    return;
+  }}
+
+  folderList.style.display = 'none';
+  const filtered = cards.filter(card => 
+    card.filename.toLowerCase().includes(query) ||
+    card.text.toLowerCase().includes(query)
+  );
+
+  if (filtered.length === 0) {{
+    searchResults.innerHTML = '<p>No matching cards found.</p>';
+    return;
+  }}
+
+  searchResults.innerHTML = filtered.map(card => `
+    <div class="search-result">
+      <a href="\${card.url}" target="_blank" rel="noopener noreferrer">
+        <img src="\${card.thumb_url}" alt="\${card.filename}" loading="lazy">
+      </a>
+      <div>
+        <strong>\${card.filename.replace(/\.[^/.]+$/, "")}</strong><br>
+        <small>\${card.text.substring(0, 150).replace(/\n/g, ' ')}${card.text.length > 150 ? '...' : ''}</small>
+      </div>
+    </div>
+  `).join('');
+}});
+</script>
+</body>
+</html>
