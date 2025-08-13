@@ -1,41 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dusk Agents</title>
+    <title>Dusk Agents Gallery</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; }
         h1 { text-align: center; }
-        .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
-        .item { text-align: center; max-width: 200px; }
-        img { max-width: 100%; height: auto; border: 1px solid #ccc; }
-        .caption { font-size: 0.9em; margin-top: 5px; word-wrap: break-word; }
-        a.back { display: block; margin: 20px auto; text-align: center; color: #007BFF; text-decoration: none; }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 180px;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            background: #fafafa;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #999;
+            border-radius: 3px;
+        }
+        .card h3 {
+            margin: 8px 0 4px 0;
+            font-weight: 700;
+            text-shadow: 0 0 1px rgba(0,0,0,0.6);
+        }
+        .card p {
+            font-size: 0.9em;
+            color: #333;
+            max-height: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        a.back-link {
+            display: inline-block;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a.back-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-<a class="back" href="index.html">← Back to Index</a>
-<h1>Dusk Agents</h1>
-<div class="gallery">
-    <div class="item">
-        <a href="CardImages/Dusk Agents/thumbnails/Flummox.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Dusk Agents/thumbnails/Flummox.png" alt="Flummox" loading="lazy">
-        </a>
-        <div class="caption">Flummox</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Dusk Agents/thumbnails/Espionage.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Dusk Agents/thumbnails/Espionage.png" alt="Espionage" loading="lazy">
-        </a>
-        <div class="caption">Espionage</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Dusk Agents/thumbnails/Nightshade Network.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Dusk Agents/thumbnails/Nightshade Network.png" alt="Nightshade Network" loading="lazy">
-        </a>
-        <div class="caption">Nightshade Network</div>
-    </div>
+    <a href="index.html" class="back-link">&larr; Back to all sets</a>
+    <h1>Dusk Agents Gallery</h1>
+    <div class="card-container">
 
-</div>
-<a class="back" href="index.html">← Back to Index</a>
+        <div class="card">
+            <a href="CardImages/Dusk Agents/Flummox.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Dusk Agents/thumbnails/Flummox.png" alt="Flummox.png" loading="lazy">
+            </a>
+            <h3 style="color: #49006d">Flummox.png</h3>
+            <p>Operation- Tactics Flummoxis deployed face up. (Youpay the leadership cost when you deploy Flummox.) © Negate target card. [2] 2)</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Dusk Agents/Espionage.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Dusk Agents/thumbnails/Espionage.png" alt="Espionage.png" loading="lazy">
+            </a>
+            <h3 style="color: #49006d">Espionage.png</h3>
+            <p>Operation-Subterfuge &gt; pdraw3 cards.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Dusk Agents/Nightshade Network.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Dusk Agents/thumbnails/Nightshade Network.png" alt="Nightshade Network.png" loading="lazy">
+            </a>
+            <h3 style="color: #49006d">Nightshade Network.png</h3>
+            <p>Nightshade Network &gt; Negate target operation, [4]</p>
+        </div>
+
+    </div>
 </body>
 </html>

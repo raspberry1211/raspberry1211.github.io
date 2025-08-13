@@ -1,113 +1,181 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Oria</title>
+    <title>Oria Gallery</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; }
         h1 { text-align: center; }
-        .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
-        .item { text-align: center; max-width: 200px; }
-        img { max-width: 100%; height: auto; border: 1px solid #ccc; }
-        .caption { font-size: 0.9em; margin-top: 5px; word-wrap: break-word; }
-        a.back { display: block; margin: 20px auto; text-align: center; color: #007BFF; text-decoration: none; }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 180px;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            background: #fafafa;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #999;
+            border-radius: 3px;
+        }
+        .card h3 {
+            margin: 8px 0 4px 0;
+            font-weight: 700;
+            text-shadow: 0 0 1px rgba(0,0,0,0.6);
+        }
+        .card p {
+            font-size: 0.9em;
+            color: #333;
+            max-height: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        a.back-link {
+            display: inline-block;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a.back-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-<a class="back" href="index.html">← Back to Index</a>
-<h1>Oria</h1>
-<div class="gallery">
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Dramatic Remodeling.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Dramatic Remodeling.png" alt="Dramatic Remodeling" loading="lazy">
-        </a>
-        <div class="caption">Dramatic Remodeling</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Iron Rebuff.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Iron Rebuff.png" alt="Iron Rebuff" loading="lazy">
-        </a>
-        <div class="caption">Iron Rebuff</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Eversiege Veteran.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Eversiege Veteran.png" alt="Eversiege Veteran" loading="lazy">
-        </a>
-        <div class="caption">Eversiege Veteran</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Eversiege Landmine.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Eversiege Landmine.png" alt="Eversiege Landmine" loading="lazy">
-        </a>
-        <div class="caption">Eversiege Landmine</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Oria Trenchworks.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Oria Trenchworks.png" alt="Oria Trenchworks" loading="lazy">
-        </a>
-        <div class="caption">Oria Trenchworks</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Siege Rations.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Siege Rations.png" alt="Siege Rations" loading="lazy">
-        </a>
-        <div class="caption">Siege Rations</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Oria Warweaver.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Oria Warweaver.png" alt="Oria Warweaver" loading="lazy">
-        </a>
-        <div class="caption">Oria Warweaver</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Exquisite Webcraft.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Exquisite Webcraft.png" alt="Exquisite Webcraft" loading="lazy">
-        </a>
-        <div class="caption">Exquisite Webcraft</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Ramshackle Barricade.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Ramshackle Barricade.png" alt="Ramshackle Barricade" loading="lazy">
-        </a>
-        <div class="caption">Ramshackle Barricade</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Greek Fire.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Greek Fire.png" alt="Greek Fire" loading="lazy">
-        </a>
-        <div class="caption">Greek Fire</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Command Tent.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Command Tent.png" alt="Command Tent" loading="lazy">
-        </a>
-        <div class="caption">Command Tent</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Expeditious Construction.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Expeditious Construction.png" alt="Expeditious Construction" loading="lazy">
-        </a>
-        <div class="caption">Expeditious Construction</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Swifthoof Harassers.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Swifthoof Harassers.png" alt="Swifthoof Harassers" loading="lazy">
-        </a>
-        <div class="caption">Swifthoof Harassers</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Coordination.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Coordination.png" alt="Coordination" loading="lazy">
-        </a>
-        <div class="caption">Coordination</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Oria/thumbnails/Oria Demo Team.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Oria/thumbnails/Oria Demo Team.png" alt="Oria Demo Team" loading="lazy">
-        </a>
-        <div class="caption">Oria Demo Team</div>
-    </div>
+    <a href="index.html" class="back-link">&larr; Back to all sets</a>
+    <h1>Oria Gallery</h1>
+    <div class="card-container">
 
-</div>
-<a class="back" href="index.html">← Back to Index</a>
+        <div class="card">
+            <a href="CardImages/Oria/Dramatic Remodeling.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Dramatic Remodeling.png" alt="Dramatic Remodeling.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Dramatic Remodeling.png</h3>
+            <p>Dramatic Remodeling Operation-Engineering Magecraft O F&gt;Sacrifice an Asset: Search your deck for an Asset that costs up to 1 morethan the sacrifice...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Iron Rebuff.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Iron Rebuff.png" alt="Iron Rebuff.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Iron Rebuff.png</h3>
+            <p>Iron Rebuff Operation-Tactics &gt; Ifyou control a Fortification, target Combatant gets +1 Defense and +1 Raze, © Negate target Operation in this Fron...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Eversiege Veteran.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Eversiege Veteran.png" alt="Eversiege Veteran.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Eversiege Veteran.png</h3>
+            <p>Eversiege Veteran Asset-Soldier Engineer Obdraw acard.If you control a Squadron or choose to Scavenge an Asset, draw3 cardsinstead. (To Scavenge a car...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Eversiege Landmine.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Eversiege Landmine.png" alt="Eversiege Landmine.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Eversiege Landmine.png</h3>
+            <p>Eversiege Landmine Operation-WeaponEngineering O Deal 3 damage to each Combatantin this Front. [4] @</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Oria Trenchworks.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Oria Trenchworks.png" alt="Oria Trenchworks.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Oria Trenchworks.png</h3>
+            <p>OriaTrenchworks You may deploy an additional card each round.} Ortarget Combatant gets +1 Defense and drawacard.} Bulwark(Your opponent cannot damage ...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Siege Rations.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Siege Rations.png" alt="Siege Rations.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Siege Rations.png</h3>
+            <p>Siege Rations Asset-Infrastructure &gt; Draw 3 cards.} Whenever you activate an Asset, you may give target Combatant +1 Power. Bulwark(Your opponent c...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Oria Warweaver.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Oria Warweaver.png" alt="Oria Warweaver.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Oria Warweaver.png</h3>
+            <p>Oria Warweaver Asset-Wizard Whenever an opponent activates a card with leadership cost 3 or more, drawa card and give target Combatant +2 Power} O' le...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Exquisite Webcraft.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Exquisite Webcraft.png" alt="Exquisite Webcraft.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Exquisite Webcraft.png</h3>
+            <p>Exquisite Webcraft Asset-Fortification Atupkeep, ifyou control 3 or more Assets, gain+1 Leadership. @)</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Ramshackle Barricade.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Ramshackle Barricade.png" alt="Ramshackle Barricade.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Ramshackle Barricade.png</h3>
+            <p>Ramshackle Barricade Asset-Fortification Atthe beginning of upkeep deal 1 damagetothis. Safeguard (Your opponent cannotassign combat damage to assets ...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Greek Fire.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Greek Fire.png" alt="Greek Fire.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Greek Fire.png</h3>
+            <p>Asset-Weapon (e) Combatants you control have +1 Raze. Comical flavourtext explaining how Greek is anin-universe reference to something.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Command Tent.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Command Tent.png" alt="Command Tent.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Command Tent.png</h3>
+            <p>Command Tent Asset-Infrastructure Petarget combatantin this Front gets +1 power. OO Draw acard. Activate onlyifyou control acombatant in this Front. B...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Expeditious Construction.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Expeditious Construction.png" alt="Expeditious Construction.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Expeditious Construction.png</h3>
+            <p>Expeditious Construction Operation-Infrastructure Engineering O [&gt;The next Fortification, Weapon, or Infrastructure you activate costs 2 less. You ...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Swifthoof Harassers.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Swifthoof Harassers.png" alt="Swifthoof Harassers.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Swifthoof Harassers.png</h3>
+            <p>Swifthoof Harassers G $4: Negate target combatant. [3]</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Coordination.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Coordination.png" alt="Coordination.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Coordination.png</h3>
+            <p>Operation-Tactics Whenever you activate a Squadron,draw 2cards.} CEQunegate target cardinaFrontin which you control 2 or more Combatants. [1] @</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Oria/Oria Demo Team.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Oria/thumbnails/Oria Demo Team.png" alt="Oria Demo Team.png" loading="lazy">
+            </a>
+            <h3 style="color: #993200">Oria Demo Team.png</h3>
+            <p>yOriaDemoTeam Engineer PD: Ifyou control 2 or more assets, give target combatant +2 Raze and drawacard.</p>
+        </div>
+
+    </div>
 </body>
 </html>

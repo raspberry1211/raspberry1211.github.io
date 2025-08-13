@@ -1,173 +1,261 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Legion of Seven Swords</title>
+    <title>Legion of Seven Swords Gallery</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; }
         h1 { text-align: center; }
-        .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
-        .item { text-align: center; max-width: 200px; }
-        img { max-width: 100%; height: auto; border: 1px solid #ccc; }
-        .caption { font-size: 0.9em; margin-top: 5px; word-wrap: break-word; }
-        a.back { display: block; margin: 20px auto; text-align: center; color: #007BFF; text-decoration: none; }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 180px;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            background: #fafafa;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #999;
+            border-radius: 3px;
+        }
+        .card h3 {
+            margin: 8px 0 4px 0;
+            font-weight: 700;
+            text-shadow: 0 0 1px rgba(0,0,0,0.6);
+        }
+        .card p {
+            font-size: 0.9em;
+            color: #333;
+            max-height: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        a.back-link {
+            display: inline-block;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a.back-link:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-<a class="back" href="index.html">← Back to Index</a>
-<h1>Legion of Seven Swords</h1>
-<div class="gallery">
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Gerlach Witch-Hunters.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Gerlach Witch-Hunters.png" alt="Gerlach Witch-Hunters" loading="lazy">
-        </a>
-        <div class="caption">Gerlach Witch-Hunters</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Marshal.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Marshal.png" alt="Marshal" loading="lazy">
-        </a>
-        <div class="caption">Marshal</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Message-Bearer.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Message-Bearer.png" alt="Message-Bearer" loading="lazy">
-        </a>
-        <div class="caption">Message-Bearer</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Quenwith Advancers.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Quenwith Advancers.png" alt="Quenwith Advancers" loading="lazy">
-        </a>
-        <div class="caption">Quenwith Advancers</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Evidge Archers.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Evidge Archers.png" alt="Evidge Archers" loading="lazy">
-        </a>
-        <div class="caption">Evidge Archers</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Battle-Hardened Centurion.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Battle-Hardened Centurion.png" alt="Battle-Hardened Centurion" loading="lazy">
-        </a>
-        <div class="caption">Battle-Hardened Centurion</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Inspiring Statue.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Inspiring Statue.png" alt="Inspiring Statue" loading="lazy">
-        </a>
-        <div class="caption">Inspiring Statue</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Volkovian Bell-Ringers.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Volkovian Bell-Ringers.png" alt="Volkovian Bell-Ringers" loading="lazy">
-        </a>
-        <div class="caption">Volkovian Bell-Ringers</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Legionnaires.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Legionnaires.png" alt="Legionnaires" loading="lazy">
-        </a>
-        <div class="caption">Legionnaires</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Varkeve Berserkers.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Varkeve Berserkers.png" alt="Varkeve Berserkers" loading="lazy">
-        </a>
-        <div class="caption">Varkeve Berserkers</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Inspiring Captain.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Inspiring Captain.png" alt="Inspiring Captain" loading="lazy">
-        </a>
-        <div class="caption">Inspiring Captain</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Ambuscade.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Ambuscade.png" alt="Ambuscade" loading="lazy">
-        </a>
-        <div class="caption">Ambuscade</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Legion Recruiter.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Legion Recruiter.png" alt="Legion Recruiter" loading="lazy">
-        </a>
-        <div class="caption">Legion Recruiter</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Valorous Strike.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Valorous Strike.png" alt="Valorous Strike" loading="lazy">
-        </a>
-        <div class="caption">Valorous Strike</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Ahzanian Renegades.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Ahzanian Renegades.png" alt="Ahzanian Renegades" loading="lazy">
-        </a>
-        <div class="caption">Ahzanian Renegades</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Legion Warhorn.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Legion Warhorn.png" alt="Legion Warhorn" loading="lazy">
-        </a>
-        <div class="caption">Legion Warhorn</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Catarina Shieldmage.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Catarina Shieldmage.png" alt="Catarina Shieldmage" loading="lazy">
-        </a>
-        <div class="caption">Catarina Shieldmage</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Chivalric Cavalier.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Chivalric Cavalier.png" alt="Chivalric Cavalier" loading="lazy">
-        </a>
-        <div class="caption">Chivalric Cavalier</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Battle Standard.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Battle Standard.png" alt="Battle Standard" loading="lazy">
-        </a>
-        <div class="caption">Battle Standard</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Baggage Train.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Baggage Train.png" alt="Baggage Train" loading="lazy">
-        </a>
-        <div class="caption">Baggage Train</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Coalition Stratagem.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Coalition Stratagem.png" alt="Coalition Stratagem" loading="lazy">
-        </a>
-        <div class="caption">Coalition Stratagem</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Volkovian Stronghold.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Volkovian Stronghold.png" alt="Volkovian Stronghold" loading="lazy">
-        </a>
-        <div class="caption">Volkovian Stronghold</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Militia.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Militia.png" alt="Militia" loading="lazy">
-        </a>
-        <div class="caption">Militia</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Ode of Triumph.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Ode of Triumph.png" alt="Ode of Triumph" loading="lazy">
-        </a>
-        <div class="caption">Ode of Triumph</div>
-    </div>
-    <div class="item">
-        <a href="CardImages/Legion of Seven Swords/thumbnails/Reinforcements.png" target="_blank" rel="noopener noreferrer">
-            <img src="CardImages/Legion of Seven Swords/thumbnails/Reinforcements.png" alt="Reinforcements" loading="lazy">
-        </a>
-        <div class="caption">Reinforcements</div>
-    </div>
+    <a href="index.html" class="back-link">&larr; Back to all sets</a>
+    <h1>Legion of Seven Swords Gallery</h1>
+    <div class="card-container">
 
-</div>
-<a class="back" href="index.html">← Back to Index</a>
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Gerlach Witch-Hunters.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Gerlach Witch-Hunters.png" alt="Gerlach Witch-Hunters.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Gerlach Witch-Hunters.png</h3>
+            <p>Gerlach Witch-Hunters Other cards you control inthis Front have +1 defense. OQuegate target Sorcery. [2]</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Marshal.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Marshal.png" alt="Marshal.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Marshal.png</h3>
+            <p>Asset-Soldier O$¢:Target squadron gets +2 power} Bulwark(Your opponent cannot damage your leader in this Front.) 2)</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Message-Bearer.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Message-Bearer.png" alt="Message-Bearer.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Message-Bearer.png</h3>
+            <p>Message-Bearer Combatant-Individual Cavalry Advisor Misdirect (You may deploy this in either orientation.) At the beginning of the endstep draw4 cards...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Quenwith Advancers.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Quenwith Advancers.png" alt="Quenwith Advancers.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Quenwith Advancers.png</h3>
+            <p>Quenwith Advancers Soldier Engineer Misdirect (You may deploy this in either orientation.) Dityou control another combatant, deal 1 damageto each enem...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Evidge Archers.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Evidge Archers.png" alt="Evidge Archers.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Evidge Archers.png</h3>
+            <p>Evidge Archers &gt; Deal 2 damage to target combatantinaneighbouring Front.[3]</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Battle-Hardened Centurion.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Battle-Hardened Centurion.png" alt="Battle-Hardened Centurion.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Battle-Hardened Centurion.png</h3>
+            <p>Battle-Hardened Centurion Combatant-Individual This gets +1 power for each combatant you control.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Inspiring Statue.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Inspiring Statue.png" alt="Inspiring Statue.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Inspiring Statue.png</h3>
+            <p>Inspiring Statue Asset-Relic Atupkeep you get +2 leadership. 4] @)</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Volkovian Bell-Ringers.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Volkovian Bell-Ringers.png" alt="Volkovian Bell-Ringers.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Volkovian Bell-Ringers.png</h3>
+            <p>Volkovian Bell-Ringers DP ityou control 2 or more other combatants, gain 2 leadership.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Legionnaires.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Legionnaires.png" alt="Legionnaires.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Legionnaires.png</h3>
+            <p>Legionnaires you may deploy an additional card during deployment next round.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Varkeve Berserkers.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Varkeve Berserkers.png" alt="Varkeve Berserkers.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Varkeve Berserkers.png</h3>
+            <p>Varkeve Berserkers PD ithis is inthe flank your opponentdiscards acard at random. If this is in the vanguard, $¢: Each combatant you controlina flank ...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Inspiring Captain.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Inspiring Captain.png" alt="Inspiring Captain.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Inspiring Captain.png</h3>
+            <p>Inspiring Captain Asset-Soldier Advisor Misdirect (You may deploy this in either orientation.) Twice per turn when you activate a card inthis Front, d...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Ambuscade.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Ambuscade.png" alt="Ambuscade.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Ambuscade.png</h3>
+            <p>Operation-Tactics Subterfuge Misdirect (You may deploy this in either orientation.) Target combatant gets +2 power. @</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Legion Recruiter.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Legion Recruiter.png" alt="Legion Recruiter.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Legion Recruiter.png</h3>
+            <p>Legion Recruiter Combatant-Individual cian Bard Pityou controlan Infrastructure, deploy and activate a combatant with cost 2orless from your hand outw...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Valorous Strike.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Valorous Strike.png" alt="Valorous Strike.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Valorous Strike.png</h3>
+            <p>Valorous Strike Operation-Heroics &gt; Destroy target individual. [6] Ifthat individual had 4 or more power you get +1 leadership next round. @</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Ahzanian Renegades.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Ahzanian Renegades.png" alt="Ahzanian Renegades.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Ahzanian Renegades.png</h3>
+            <p>Ahzanian Renegades Move this combatanttoa different Front.} O Negate target card inthis Front. [1] Activate only ifyou control 2 or more other combata...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Legion Warhorn.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Legion Warhorn.png" alt="Legion Warhorn.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Legion Warhorn.png</h3>
+            <p>Legion Warhorn Asset-RelicInfrastructure You may deploy an additional card each round.} (Geach combatant you control in target front gains +1 power. A...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Catarina Shieldmage.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Catarina Shieldmage.png" alt="Catarina Shieldmage.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Catarina Shieldmage.png</h3>
+            <p>Catarina Shieldmage Combatant-Individual Ta rgetcard gets +2 defense.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Chivalric Cavalier.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Chivalric Cavalier.png" alt="Chivalric Cavalier.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Chivalric Cavalier.png</h3>
+            <p>Chivalric Cavalier Combatant-Individual Cavalry Politician [&gt; $4: cain 1 leadership.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Battle Standard.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Battle Standard.png" alt="Battle Standard.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Battle Standard.png</h3>
+            <p>Battle Standard Asset-Infrastructure Atthe beginning of upkeep, gain +1 leadership. @)</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Baggage Train.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Baggage Train.png" alt="Baggage Train.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Baggage Train.png</h3>
+            <p>Baggage Train Misdirect (You may deploy this in either orientation.) cain +2 leadership next turn.</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Coalition Stratagem.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Coalition Stratagem.png" alt="Coalition Stratagem.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Coalition Stratagem.png</h3>
+            <p>Coalition Stratagem Operation-Tactics Politics &gt; Draw4 cards.} Ca rget combatant gets +1 Defense and +1 Power. Activate only if you control a Soldi...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Volkovian Stronghold.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Volkovian Stronghold.png" alt="Volkovian Stronghold.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Volkovian Stronghold.png</h3>
+            <p>Volkovian Stronghold Asset-Fortification When you activate your first combatant each round, &gt;¢ $¢:Gain +2 leadership.} Whenever a player activates ...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Militia.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Militia.png" alt="Militia.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Militia.png</h3>
+            <p></p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Ode of Triumph.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Ode of Triumph.png" alt="Ode of Triumph.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Ode of Triumph.png</h3>
+            <p>Ode of Triumph Operation-Song Tactics This costs 1less ifyou control a squadron, Thesameis true for individual and soldier. f&gt;Acombatant gets +2 po...</p>
+        </div>
+
+        <div class="card">
+            <a href="CardImages/Legion of Seven Swords/Reinforcements.png" target="_blank" rel="noopener noreferrer">
+                <img src="CardImages/Legion of Seven Swords/thumbnails/Reinforcements.png" alt="Reinforcements.png" loading="lazy">
+            </a>
+            <h3 style="color: #fed700">Reinforcements.png</h3>
+            <p>Reinforcements Soldier Warrior You may discard acard to be able to activate this atinstant speed. Target combatantina neighbouring Front gets +1 power...</p>
+        </div>
+
+    </div>
 </body>
 </html>

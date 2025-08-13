@@ -1,485 +1,485 @@
 [
   {
-    "folder": "Pyromancers",
     "filename": "Arcane Conduit.png",
-    "text": "Arcane Conduit\n\nAsset-MagecraftInfrastructure P\n\nAt the beginning of upkeep, draw3 cards\n\nThe first time you activate a Wizard each\nround, it gets +1 Power.\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\nQ",
     "url": "CardImages/Pyromancers/Arcane Conduit.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Arcane Conduit.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Arcane Conduit.png",
+    "text": "Arcane Conduit Asset-MagecraftInfrastructure P At the beginning of upkeep, draw3 cards The first time you activate a Wizard each round, it gets +1 Power. Bulwark(Your opponent cannot damage your leader in this Front.) Q",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Flamestrike.png",
-    "text": "Flamestrike\n\nOperation- Magecraft\n\n[> Deal 2damagetotarget\ncombatant. [3]\n\n@)",
     "url": "CardImages/Pyromancers/Flamestrike.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Flamestrike.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Flamestrike.png",
+    "text": "Flamestrike Operation- Magecraft [> Deal 2damagetotarget combatant. [3] @)",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Master of Cinders.png",
-    "text": "Master of Cinders\n\nCombatant-Individual\n\nO Ot: Deal 1 damage to\n\ntarget combatant. [2]",
     "url": "CardImages/Pyromancers/Master of Cinders.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Master of Cinders.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Master of Cinders.png",
+    "text": "Master of Cinders Combatant-Individual O Ot: Deal 1 damage to target combatant. [2]",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Joira's Flamepainter.png",
-    "text": "Joira's Flamepainter\n\nCombatant-Individua\nWizard Artist\n\nPityou controla Cleric, deal\n\n2 damage to each other\nCombatantin this Front. [2]",
     "url": "CardImages/Pyromancers/Joira's Flamepainter.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Joira's Flamepainter.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Joira's Flamepainter.png",
+    "text": "Joira's Flamepainter Combatant-Individua Wizard Artist Pityou controla Cleric, deal 2 damage to each other Combatantin this Front. [2]",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Dragon Heartstone.png",
-    "text": "Dragon Heartstone\n\nAsset-Dragon Relic\nMisdirect (You may deploy this in either\norientation.)\n\nDeal 1 damage to target combatant\ninthis Front. [3] }\nTriggered and activated effects on\n\nOperations you control have +1\nPenetrate.\n\n@",
     "url": "CardImages/Pyromancers/Dragon Heartstone.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Dragon Heartstone.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Dragon Heartstone.png",
+    "text": "Dragon Heartstone Asset-Dragon Relic Misdirect (You may deploy this in either orientation.) Deal 1 damage to target combatant inthis Front. [3] } Triggered and activated effects on Operations you control have +1 Penetrate. @",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Dragon's Breath.png",
-    "text": "Dragon's Breath\n\nOperation-Magecraft\n\n>}\n\nCQpdeal 2damagetotarget\n\ncombatant. [2]",
     "url": "CardImages/Pyromancers/Dragon's Breath.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Dragon's Breath.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Dragon's Breath.png",
+    "text": "Dragon's Breath Operation-Magecraft >} CQpdeal 2damagetotarget combatant. [2]",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Spellcraft Orb.png",
-    "text": "Spellcraft Orb\n\nAsset-Magecraft Relic\n\nAtthe beginning of upkeep, gain +1\nleadership.}\n\nWhenever you activate your second\n\nOperation each round, puta ritual\ncounter on this.}\n\nOsacrifice this: Target combatant gets\n+N where Nis the number of ritual\n\ncounters this had. ;",
     "url": "CardImages/Pyromancers/Spellcraft Orb.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Spellcraft Orb.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Spellcraft Orb.png",
+    "text": "Spellcraft Orb Asset-Magecraft Relic Atthe beginning of upkeep, gain +1 leadership.} Whenever you activate your second Operation each round, puta ritual counter on this.} Osacrifice this: Target combatant gets +N where Nis the number of ritual counters this had. ;",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Crystal Ball.png",
-    "text": "Crystal Ball\n\nAsset- Relic Magecraft\nAtthe endstep, draw 2 cards.\n\n@)",
     "url": "CardImages/Pyromancers/Crystal Ball.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Crystal Ball.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Crystal Ball.png",
+    "text": "Crystal Ball Asset- Relic Magecraft Atthe endstep, draw 2 cards. @)",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Meteor Swarm.png",
-    "text": "Operation-Magecraft\n\n> Deal 8 damage to target asset or\ncombatant [6], and deal 2 damage to\n\neach other asset and combatantin that\nFront.[3]\n\n@",
     "url": "CardImages/Pyromancers/Meteor Swarm.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Meteor Swarm.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Meteor Swarm.png",
+    "text": "Operation-Magecraft > Deal 8 damage to target asset or combatant [6], and deal 2 damage to each other asset and combatantin that Front.[3] @",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Scholars of the First Flame.png",
-    "text": "Scholars of the First Flame\n\nWizard\n> pdraw3 cards.",
     "url": "CardImages/Pyromancers/Scholars of the First Flame.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Scholars of the First Flame.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Scholars of the First Flame.png",
+    "text": "Scholars of the First Flame Wizard > pdraw3 cards.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Mindfire Pugilists.png",
-    "text": "Mindfire Pugilists\n\nMisdirect (You may deploy this in\neither orientation.)\n\nPityou control a Wizard, this\n\ngets +1 Power and +1 Raze.",
     "url": "CardImages/Pyromancers/Mindfire Pugilists.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Mindfire Pugilists.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Mindfire Pugilists.png",
+    "text": "Mindfire Pugilists Misdirect (You may deploy this in either orientation.) Pityou control a Wizard, this gets +1 Power and +1 Raze.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Mindfire Mystic.png",
-    "text": "Mindfire Mystic\n\nCombatant-Individual\n\nCleric Warrior\n\nWhenever you drawa card, this\ngets +1 Power.",
     "url": "CardImages/Pyromancers/Mindfire Mystic.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Mindfire Mystic.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Mindfire Mystic.png",
+    "text": "Mindfire Mystic Combatant-Individual Cleric Warrior Whenever you drawa card, this gets +1 Power.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Kindling Mage.png",
-    "text": "Kindling Mage\n\nCombatant-Individual\nWizard Druid\n\n[>The next time an effect you\ncontrol deals noncombat\n\ndamagethis round, it deals 2\nmore.",
     "url": "CardImages/Pyromancers/Kindling Mage.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Kindling Mage.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Kindling Mage.png",
+    "text": "Kindling Mage Combatant-Individual Wizard Druid [>The next time an effect you control deals noncombat damagethis round, it deals 2 more.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Commune with Fire.png",
-    "text": "Communewith Fire\n\nOperation-Magecraft Research P\n\n> Shuffle up to 3 cards from your\n\ndiscard backinto your deck. Draw 11\ncards.\n\n6)",
     "url": "CardImages/Pyromancers/Commune with Fire.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Commune with Fire.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Commune with Fire.png",
+    "text": "Communewith Fire Operation-Magecraft Research P > Shuffle up to 3 cards from your discard backinto your deck. Draw 11 cards. 6)",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Cleansing Ritual.png",
-    "text": "Cleansing Ritual\n\nAsset-Magecraft Miracle\n\nThis costs 1 less ifyou control a Wizard\nand 1 lessifyou control a Cleric.}\nQsacrifice this: Deal 5 damage totarget\nasset and negate it. [5]}\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@",
     "url": "CardImages/Pyromancers/Cleansing Ritual.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Cleansing Ritual.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Cleansing Ritual.png",
+    "text": "Cleansing Ritual Asset-Magecraft Miracle This costs 1 less ifyou control a Wizard and 1 lessifyou control a Cleric.} Qsacrifice this: Deal 5 damage totarget asset and negate it. [5]} Bulwark(Your opponent cannot damage your leader in this Front.) @",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Varkeve Oracles.png",
-    "text": "Varkeve Oracles\n\nMisdirect (You may deploy this in\neither orientation.)\n\nObdraw2cards.",
     "url": "CardImages/Pyromancers/Varkeve Oracles.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Varkeve Oracles.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Varkeve Oracles.png",
+    "text": "Varkeve Oracles Misdirect (You may deploy this in either orientation.) Obdraw2cards.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Crystalline Strike.png",
-    "text": "Crystalline Strike\n\nOperation-Magecraft\n\n[> deal 4damagetotarget combatant\nand drawa card for each point of excess\ndamage dealt. [4]\n\n@",
     "url": "CardImages/Pyromancers/Crystalline Strike.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Crystalline Strike.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Crystalline Strike.png",
+    "text": "Crystalline Strike Operation-Magecraft [> deal 4damagetotarget combatant and drawa card for each point of excess damage dealt. [4] @",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Iconoclasts.png",
-    "text": "Iconoclasts",
     "url": "CardImages/Pyromancers/Iconoclasts.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Iconoclasts.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Iconoclasts.png",
+    "text": "Iconoclasts",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Frenzied Flamedancers.png",
-    "text": "Frenzied Flamedancers\n\nWizard Cleric\n\nPityou have 10 or more cards\n\ninhand, the next Magecraft or\nMiracle you activate costs 1 less.",
     "url": "CardImages/Pyromancers/Frenzied Flamedancers.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Frenzied Flamedancers.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Frenzied Flamedancers.png",
+    "text": "Frenzied Flamedancers Wizard Cleric Pityou have 10 or more cards inhand, the next Magecraft or Miracle you activate costs 1 less.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Fireslingers.png",
-    "text": "Fireslingers\n\nWizard Druid\n\nPeal leadership: Deal 2 damage\nto target asset or combatant.[2]",
     "url": "CardImages/Pyromancers/Fireslingers.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Fireslingers.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Fireslingers.png",
+    "text": "Fireslingers Wizard Druid Peal leadership: Deal 2 damage to target asset or combatant.[2]",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Firebreathing Formation.png",
-    "text": "Firebreathing Formatio\n\nAsset-Magecraft Tactics\n\nDityou have 10 or more cards in hand,\ngain +1 leadership.}\nWhenever an effect you control deals\n\nnoncombat damage, drawacard and\ngive a Combatant +1 Raze.\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@",
     "url": "CardImages/Pyromancers/Firebreathing Formation.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Firebreathing Formation.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Firebreathing Formation.png",
+    "text": "Firebreathing Formatio Asset-Magecraft Tactics Dityou have 10 or more cards in hand, gain +1 leadership.} Whenever an effect you control deals noncombat damage, drawacard and give a Combatant +1 Raze. Bulwark(Your opponent cannot damage your leader in this Front.) @",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Pyretic Augury.png",
-    "text": "Pyretic Augury\n\nOperation-Miracle Magecraft\n\nMisdirect (You may deploy this in either\norientation.)",
     "url": "CardImages/Pyromancers/Pyretic Augury.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Pyretic Augury.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Pyretic Augury.png",
+    "text": "Pyretic Augury Operation-Miracle Magecraft Misdirect (You may deploy this in either orientation.)",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Esoteric Tutor.png",
-    "text": "Esoteric Tutor\n\nOperation-Research\n\nP>search your deck for four cards with\n\ndifferent names. Your opponent chooses\none of them to shuffle into your deck and\none of them to go into your discard. Put\n\ntherest into your hand.",
     "url": "CardImages/Pyromancers/Esoteric Tutor.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Esoteric Tutor.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Esoteric Tutor.png",
+    "text": "Esoteric Tutor Operation-Research P>search your deck for four cards with different names. Your opponent chooses one of them to shuffle into your deck and one of them to go into your discard. Put therest into your hand.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Mindfire Technique.png",
-    "text": "Mindfire Technique\n\nOperation-Heroics Magecraft\n\n>Deal 1 damage to target asset, leader,\nor combatant. [3] Drawacard.\n\n@",
     "url": "CardImages/Pyromancers/Mindfire Technique.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Mindfire Technique.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Mindfire Technique.png",
+    "text": "Mindfire Technique Operation-Heroics Magecraft >Deal 1 damage to target asset, leader, or combatant. [3] Drawacard. @",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Pyromancers",
     "filename": "Flames of Fortune.png",
-    "text": "Flames of Fortune\n\nOperation-Miracle P\n\nDeal 1 damage to target asset or\ncombatant. [2]}\n\nWhen you activate your first Cleric this\nround, ifit's acombatantit gains +1\nPower and 'O Draw2cards.\"}\n\nWhen you activate your first Wizard this\nround, lookatand deploy the top card\n\nof your deckina Front of your\nchoice.",
     "url": "CardImages/Pyromancers/Flames of Fortune.png",
-    "thumb_url": "CardImages/Pyromancers/thumbnails/Flames of Fortune.png"
+    "thumb_url": "CardImages/Pyromancers/thumbnails/Flames of Fortune.png",
+    "text": "Flames of Fortune Operation-Miracle P Deal 1 damage to target asset or combatant. [2]} When you activate your first Cleric this round, ifit's acombatantit gains +1 Power and 'O Draw2cards.\"} When you activate your first Wizard this round, lookatand deploy the top card of your deckina Front of your choice.",
+    "color": "#fe0d00"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Gerlach Witch-Hunters.png",
-    "text": "Gerlach Witch-Hunters\n\nOther cards you control inthis\nFront have +1 defense.\n\nOQuegate target Sorcery. [2]",
     "url": "CardImages/Legion of Seven Swords/Gerlach Witch-Hunters.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Gerlach Witch-Hunters.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Gerlach Witch-Hunters.png",
+    "text": "Gerlach Witch-Hunters Other cards you control inthis Front have +1 defense. OQuegate target Sorcery. [2]",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Marshal.png",
-    "text": "Asset-Soldier\n\nO$\u00a2:Target squadron gets +2\npower}\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n2)",
     "url": "CardImages/Legion of Seven Swords/Marshal.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Marshal.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Marshal.png",
+    "text": "Asset-Soldier O$\u00a2:Target squadron gets +2 power} Bulwark(Your opponent cannot damage your leader in this Front.) 2)",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Message-Bearer.png",
-    "text": "Message-Bearer\n\nCombatant-Individual\n\nCavalry Advisor\n\nMisdirect (You may deploy this in\neither orientation.)\n\nAt the beginning of the endstep\ndraw4 cards.",
     "url": "CardImages/Legion of Seven Swords/Message-Bearer.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Message-Bearer.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Message-Bearer.png",
+    "text": "Message-Bearer Combatant-Individual Cavalry Advisor Misdirect (You may deploy this in either orientation.) At the beginning of the endstep draw4 cards.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Quenwith Advancers.png",
-    "text": "Quenwith Advancers\n\nSoldier Engineer\n\nMisdirect (You may deploy this in\neither orientation.)\n\nDityou control another\n\ncombatant, deal 1 damageto\neach enemyassetin this\nfront.[3]",
     "url": "CardImages/Legion of Seven Swords/Quenwith Advancers.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Quenwith Advancers.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Quenwith Advancers.png",
+    "text": "Quenwith Advancers Soldier Engineer Misdirect (You may deploy this in either orientation.) Dityou control another combatant, deal 1 damageto each enemyassetin this front.[3]",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Evidge Archers.png",
-    "text": "Evidge Archers\n\n> Deal 2 damage to target\n\ncombatantinaneighbouring\nFront.[3]",
     "url": "CardImages/Legion of Seven Swords/Evidge Archers.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Evidge Archers.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Evidge Archers.png",
+    "text": "Evidge Archers > Deal 2 damage to target combatantinaneighbouring Front.[3]",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Battle-Hardened Centurion.png",
-    "text": "Battle-Hardened Centurion\n\nCombatant-Individual\n\nThis gets +1 power for each\ncombatant you control.",
     "url": "CardImages/Legion of Seven Swords/Battle-Hardened Centurion.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Battle-Hardened Centurion.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Battle-Hardened Centurion.png",
+    "text": "Battle-Hardened Centurion Combatant-Individual This gets +1 power for each combatant you control.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Inspiring Statue.png",
-    "text": "Inspiring Statue\n\nAsset-Relic\n\nAtupkeep you get +2 leadership.\n\n4] @)",
     "url": "CardImages/Legion of Seven Swords/Inspiring Statue.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Inspiring Statue.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Inspiring Statue.png",
+    "text": "Inspiring Statue Asset-Relic Atupkeep you get +2 leadership. 4] @)",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Volkovian Bell-Ringers.png",
-    "text": "Volkovian Bell-Ringers\n\nDP ityou control 2 or more\nother combatants, gain 2\nleadership.",
     "url": "CardImages/Legion of Seven Swords/Volkovian Bell-Ringers.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Volkovian Bell-Ringers.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Volkovian Bell-Ringers.png",
+    "text": "Volkovian Bell-Ringers DP ityou control 2 or more other combatants, gain 2 leadership.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Legionnaires.png",
-    "text": "Legionnaires\n\nyou may deploy an\nadditional card during\ndeployment next round.",
     "url": "CardImages/Legion of Seven Swords/Legionnaires.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Legionnaires.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Legionnaires.png",
+    "text": "Legionnaires you may deploy an additional card during deployment next round.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Varkeve Berserkers.png",
-    "text": "Varkeve Berserkers\n\nPD ithis is inthe flank your\nopponentdiscards acard at\nrandom. If this is in the\nvanguard, $\u00a2: Each combatant\n\nyou controlina flank gains\n+1 Raze.",
     "url": "CardImages/Legion of Seven Swords/Varkeve Berserkers.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Varkeve Berserkers.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Varkeve Berserkers.png",
+    "text": "Varkeve Berserkers PD ithis is inthe flank your opponentdiscards acard at random. If this is in the vanguard, $\u00a2: Each combatant you controlina flank gains +1 Raze.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Inspiring Captain.png",
-    "text": "Inspiring Captain\n\nAsset-Soldier Advisor\nMisdirect (You may deploy this in either\norientation.)\nTwice per turn when you activate a card\ninthis Front, drawacard.\n\nTarget combatantin this Front gets\n+1 power. }\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@",
     "url": "CardImages/Legion of Seven Swords/Inspiring Captain.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Inspiring Captain.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Inspiring Captain.png",
+    "text": "Inspiring Captain Asset-Soldier Advisor Misdirect (You may deploy this in either orientation.) Twice per turn when you activate a card inthis Front, drawacard. Target combatantin this Front gets +1 power. } Bulwark(Your opponent cannot damage your leader in this Front.) @",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Ambuscade.png",
-    "text": "Operation-Tactics Subterfuge\n\nMisdirect (You may deploy this in either\norientation.)\n\nTarget combatant gets +2 power.\n\n@",
     "url": "CardImages/Legion of Seven Swords/Ambuscade.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Ambuscade.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Ambuscade.png",
+    "text": "Operation-Tactics Subterfuge Misdirect (You may deploy this in either orientation.) Target combatant gets +2 power. @",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Legion Recruiter.png",
-    "text": "Legion Recruiter\n\nCombatant-Individual\ncian Bard\n\nPityou controlan\nInfrastructure, deploy and\n\nactivate a combatant with cost\n\n2orless from your hand\noutwards from this.\n(The card being activated is free.)",
     "url": "CardImages/Legion of Seven Swords/Legion Recruiter.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Legion Recruiter.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Legion Recruiter.png",
+    "text": "Legion Recruiter Combatant-Individual cian Bard Pityou controlan Infrastructure, deploy and activate a combatant with cost 2orless from your hand outwards from this. (The card being activated is free.)",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Valorous Strike.png",
-    "text": "Valorous Strike\n\nOperation-Heroics\n\n> Destroy target individual. [6] Ifthat\n\nindividual had 4 or more power you get\n+1 leadership next round.\n\n@",
     "url": "CardImages/Legion of Seven Swords/Valorous Strike.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Valorous Strike.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Valorous Strike.png",
+    "text": "Valorous Strike Operation-Heroics > Destroy target individual. [6] Ifthat individual had 4 or more power you get +1 leadership next round. @",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Ahzanian Renegades.png",
-    "text": "Ahzanian Renegades\n\nMove this combatanttoa\ndifferent Front.}\n\nO Negate target card inthis\n\nFront. [1] Activate only ifyou\ncontrol 2 or more other\ncombatants.",
     "url": "CardImages/Legion of Seven Swords/Ahzanian Renegades.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Ahzanian Renegades.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Ahzanian Renegades.png",
+    "text": "Ahzanian Renegades Move this combatanttoa different Front.} O Negate target card inthis Front. [1] Activate only ifyou control 2 or more other combatants.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Legion Warhorn.png",
-    "text": "Legion Warhorn\n\nAsset-RelicInfrastructure\n\nYou may deploy an additional card each\nround.}\n\n(Geach combatant you control in target\nfront gains +1 power. Activate only ifyou\n\ncontrol an Individual anda Squadronin\nthat Front.\n\n@",
     "url": "CardImages/Legion of Seven Swords/Legion Warhorn.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Legion Warhorn.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Legion Warhorn.png",
+    "text": "Legion Warhorn Asset-RelicInfrastructure You may deploy an additional card each round.} (Geach combatant you control in target front gains +1 power. Activate only ifyou control an Individual anda Squadronin that Front. @",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Catarina Shieldmage.png",
-    "text": "Catarina Shieldmage\n\nCombatant-Individual\n\nTa rgetcard gets +2\ndefense.",
     "url": "CardImages/Legion of Seven Swords/Catarina Shieldmage.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Catarina Shieldmage.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Catarina Shieldmage.png",
+    "text": "Catarina Shieldmage Combatant-Individual Ta rgetcard gets +2 defense.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Chivalric Cavalier.png",
-    "text": "Chivalric Cavalier\n\nCombatant-Individual\n\nCavalry Politician\n\n[> $4: cain 1 leadership.",
     "url": "CardImages/Legion of Seven Swords/Chivalric Cavalier.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Chivalric Cavalier.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Chivalric Cavalier.png",
+    "text": "Chivalric Cavalier Combatant-Individual Cavalry Politician [> $4: cain 1 leadership.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Battle Standard.png",
-    "text": "Battle Standard\n\nAsset-Infrastructure\n\nAtthe beginning of upkeep, gain +1\nleadership.\n\n@)",
     "url": "CardImages/Legion of Seven Swords/Battle Standard.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Battle Standard.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Battle Standard.png",
+    "text": "Battle Standard Asset-Infrastructure Atthe beginning of upkeep, gain +1 leadership. @)",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Baggage Train.png",
-    "text": "Baggage Train\n\nMisdirect (You may deploy this in\neither orientation.)\n\ncain +2 leadership next\nturn.",
     "url": "CardImages/Legion of Seven Swords/Baggage Train.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Baggage Train.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Baggage Train.png",
+    "text": "Baggage Train Misdirect (You may deploy this in either orientation.) cain +2 leadership next turn.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Coalition Stratagem.png",
-    "text": "Coalition Stratagem\n\nOperation-Tactics Politics\n\n> Draw4 cards.}\n\nCa rget combatant gets +1 Defense\nand +1 Power. Activate only if you control\n\na Soldier.",
     "url": "CardImages/Legion of Seven Swords/Coalition Stratagem.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Coalition Stratagem.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Coalition Stratagem.png",
+    "text": "Coalition Stratagem Operation-Tactics Politics > Draw4 cards.} Ca rget combatant gets +1 Defense and +1 Power. Activate only if you control a Soldier.",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Volkovian Stronghold.png",
-    "text": "Volkovian Stronghold\n\nAsset-Fortification\nWhen you activate your first combatant\neach round, >\u00a2 $\u00a2:Gain +2 leadership.}\n\nWhenever a player activates a Magecraft,\nthey discard acard.}\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@",
     "url": "CardImages/Legion of Seven Swords/Volkovian Stronghold.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Volkovian Stronghold.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Volkovian Stronghold.png",
+    "text": "Volkovian Stronghold Asset-Fortification When you activate your first combatant each round, >\u00a2 $\u00a2:Gain +2 leadership.} Whenever a player activates a Magecraft, they discard acard.} Bulwark(Your opponent cannot damage your leader in this Front.) @",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Militia.png",
-    "text": "",
     "url": "CardImages/Legion of Seven Swords/Militia.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Militia.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Militia.png",
+    "text": "",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Ode of Triumph.png",
-    "text": "Ode of Triumph\n\nOperation-Song Tactics\n\nThis costs 1less ifyou control a squadron,\nThesameis true for individual and\nsoldier.\n\nf>Acombatant gets +2 power, another\ncombatant gets +2 defense, and another\n\ncombatant gets Raze[2].",
     "url": "CardImages/Legion of Seven Swords/Ode of Triumph.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Ode of Triumph.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Ode of Triumph.png",
+    "text": "Ode of Triumph Operation-Song Tactics This costs 1less ifyou control a squadron, Thesameis true for individual and soldier. f>Acombatant gets +2 power, another combatant gets +2 defense, and another combatant gets Raze[2].",
+    "color": "#fed700"
   },
   {
-    "folder": "Legion of Seven Swords",
     "filename": "Reinforcements.png",
-    "text": "Reinforcements\n\nSoldier Warrior\n\nYou may discard acard to be\n\nable to activate this atinstant\nspeed.\n\nTarget combatantina\n\nneighbouring Front gets +1\npower and +1 defense.",
     "url": "CardImages/Legion of Seven Swords/Reinforcements.png",
-    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Reinforcements.png"
+    "thumb_url": "CardImages/Legion of Seven Swords/thumbnails/Reinforcements.png",
+    "text": "Reinforcements Soldier Warrior You may discard acard to be able to activate this atinstant speed. Target combatantina neighbouring Front gets +1 power and +1 defense.",
+    "color": "#fed700"
   },
   {
-    "folder": "Dusk Agents",
     "filename": "Flummox.png",
-    "text": "Operation- Tactics\n\nFlummoxis deployed face up. (Youpay the\nleadership cost when you deploy Flummox.)\n\n\u00a9 Negate target card. [2]\n\n2)",
     "url": "CardImages/Dusk Agents/Flummox.png",
-    "thumb_url": "CardImages/Dusk Agents/thumbnails/Flummox.png"
+    "thumb_url": "CardImages/Dusk Agents/thumbnails/Flummox.png",
+    "text": "Operation- Tactics Flummoxis deployed face up. (Youpay the leadership cost when you deploy Flummox.) \u00a9 Negate target card. [2] 2)",
+    "color": "#49006d"
   },
   {
-    "folder": "Dusk Agents",
     "filename": "Espionage.png",
-    "text": "Operation-Subterfuge\n> pdraw3 cards.",
     "url": "CardImages/Dusk Agents/Espionage.png",
-    "thumb_url": "CardImages/Dusk Agents/thumbnails/Espionage.png"
+    "thumb_url": "CardImages/Dusk Agents/thumbnails/Espionage.png",
+    "text": "Operation-Subterfuge > pdraw3 cards.",
+    "color": "#49006d"
   },
   {
-    "folder": "Dusk Agents",
     "filename": "Nightshade Network.png",
-    "text": "Nightshade Network\n\n> Negate target operation,\n[4]",
     "url": "CardImages/Dusk Agents/Nightshade Network.png",
-    "thumb_url": "CardImages/Dusk Agents/thumbnails/Nightshade Network.png"
+    "thumb_url": "CardImages/Dusk Agents/thumbnails/Nightshade Network.png",
+    "text": "Nightshade Network > Negate target operation, [4]",
+    "color": "#49006d"
   },
   {
-    "folder": "Oria",
     "filename": "Dramatic Remodeling.png",
-    "text": "Dramatic Remodeling\n\nOperation-Engineering Magecraft O\n\nF>Sacrifice an Asset: Search your deck\nfor an Asset that costs up to 1 morethan\nthe sacrificed Asset and deploy and\n\nactivate the newAssetin the Front of the\nsacrificed Asset without paying the new\n\nAsset's leadership cost. Shuffle.\n\n@",
     "url": "CardImages/Oria/Dramatic Remodeling.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Dramatic Remodeling.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Dramatic Remodeling.png",
+    "text": "Dramatic Remodeling Operation-Engineering Magecraft O F>Sacrifice an Asset: Search your deck for an Asset that costs up to 1 morethan the sacrificed Asset and deploy and activate the newAssetin the Front of the sacrificed Asset without paying the new Asset's leadership cost. Shuffle. @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Iron Rebuff.png",
-    "text": "Iron Rebuff\n\nOperation-Tactics\n\n> Ifyou control a Fortification, target\nCombatant gets +1 Defense and +1 Raze,\n\n\u00a9 Negate target Operation in this\n\nFront. [2]",
     "url": "CardImages/Oria/Iron Rebuff.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Iron Rebuff.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Iron Rebuff.png",
+    "text": "Iron Rebuff Operation-Tactics > Ifyou control a Fortification, target Combatant gets +1 Defense and +1 Raze, \u00a9 Negate target Operation in this Front. [2]",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Eversiege Veteran.png",
-    "text": "Eversiege Veteran\n\nAsset-Soldier Engineer\n\nObdraw acard.If you control a Squadron\nor choose to Scavenge an Asset, draw3\ncardsinstead.\n\n(To Scavenge a card, exile a card ofthattype\nfrom your discard.)\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@",
     "url": "CardImages/Oria/Eversiege Veteran.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Eversiege Veteran.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Eversiege Veteran.png",
+    "text": "Eversiege Veteran Asset-Soldier Engineer Obdraw acard.If you control a Squadron or choose to Scavenge an Asset, draw3 cardsinstead. (To Scavenge a card, exile a card ofthattype from your discard.) Bulwark(Your opponent cannot damage your leader in this Front.) @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Eversiege Landmine.png",
-    "text": "Eversiege Landmine\n\nOperation-WeaponEngineering O\n\nDeal 3 damage to each Combatantin\nthis Front. [4]\n\n@",
     "url": "CardImages/Oria/Eversiege Landmine.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Eversiege Landmine.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Eversiege Landmine.png",
+    "text": "Eversiege Landmine Operation-WeaponEngineering O Deal 3 damage to each Combatantin this Front. [4] @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Oria Trenchworks.png",
-    "text": "OriaTrenchworks\n\nYou may deploy an additional card each\nround.}\n\nOrtarget Combatant gets +1 Defense\nand drawacard.}\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n[4] @",
     "url": "CardImages/Oria/Oria Trenchworks.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Oria Trenchworks.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Oria Trenchworks.png",
+    "text": "OriaTrenchworks You may deploy an additional card each round.} Ortarget Combatant gets +1 Defense and drawacard.} Bulwark(Your opponent cannot damage your leader in this Front.) [4] @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Siege Rations.png",
-    "text": "Siege Rations\n\nAsset-Infrastructure\n\n> Draw 3 cards.}\n\nWhenever you activate an Asset, you\nmay give target Combatant +1 Power.\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@",
     "url": "CardImages/Oria/Siege Rations.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Siege Rations.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Siege Rations.png",
+    "text": "Siege Rations Asset-Infrastructure > Draw 3 cards.} Whenever you activate an Asset, you may give target Combatant +1 Power. Bulwark(Your opponent cannot damage your leader in this Front.) @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Oria Warweaver.png",
-    "text": "Oria Warweaver\n\nAsset-Wizard\n\nWhenever an opponent activates a card\nwith leadership cost 3 or more, drawa\ncard and give target Combatant +2\nPower}\n\nO' leadership: Draw2 cards.}\n\nGC: leadership: Negate target\nCombatant. [1]\n\n@",
     "url": "CardImages/Oria/Oria Warweaver.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Oria Warweaver.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Oria Warweaver.png",
+    "text": "Oria Warweaver Asset-Wizard Whenever an opponent activates a card with leadership cost 3 or more, drawa card and give target Combatant +2 Power} O' leadership: Draw2 cards.} GC: leadership: Negate target Combatant. [1] @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Exquisite Webcraft.png",
-    "text": "Exquisite Webcraft\n\nAsset-Fortification\n\nAtupkeep, ifyou control 3 or more\nAssets, gain+1 Leadership.\n\n@)",
     "url": "CardImages/Oria/Exquisite Webcraft.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Exquisite Webcraft.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Exquisite Webcraft.png",
+    "text": "Exquisite Webcraft Asset-Fortification Atupkeep, ifyou control 3 or more Assets, gain+1 Leadership. @)",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Ramshackle Barricade.png",
-    "text": "Ramshackle Barricade\n\nAsset-Fortification\n\nAtthe beginning of upkeep deal 1\ndamagetothis.\n\nSafeguard (Your opponent cannotassign\ncombat damage to assets without Safeguard\nin this Front.)\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@)",
     "url": "CardImages/Oria/Ramshackle Barricade.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Ramshackle Barricade.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Ramshackle Barricade.png",
+    "text": "Ramshackle Barricade Asset-Fortification Atthe beginning of upkeep deal 1 damagetothis. Safeguard (Your opponent cannotassign combat damage to assets without Safeguard in this Front.) Bulwark(Your opponent cannot damage your leader in this Front.) @)",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Greek Fire.png",
-    "text": "Asset-Weapon (e)\n\nCombatants you control have +1 Raze.\n\nComical flavourtext explaining how Greek is\nanin-universe reference to something.",
     "url": "CardImages/Oria/Greek Fire.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Greek Fire.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Greek Fire.png",
+    "text": "Asset-Weapon (e) Combatants you control have +1 Raze. Comical flavourtext explaining how Greek is anin-universe reference to something.",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Command Tent.png",
-    "text": "Command Tent\n\nAsset-Infrastructure\nPetarget combatantin this Front gets +1\n\npower.\n\nOO Draw acard. Activate onlyifyou\ncontrol acombatant in this Front.\n\nBulwark(Your opponent cannot damage\nyour leader in this Front.)\n\n@",
     "url": "CardImages/Oria/Command Tent.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Command Tent.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Command Tent.png",
+    "text": "Command Tent Asset-Infrastructure Petarget combatantin this Front gets +1 power. OO Draw acard. Activate onlyifyou control acombatant in this Front. Bulwark(Your opponent cannot damage your leader in this Front.) @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Expeditious Construction.png",
-    "text": "Expeditious Construction\n\nOperation-Infrastructure Engineering O\n\n[>The next Fortification, Weapon, or\nInfrastructure you activate costs 2 less.\nYou may shuffle up to 2 cards from your\ndiscard into your deck.}\n\n@",
     "url": "CardImages/Oria/Expeditious Construction.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Expeditious Construction.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Expeditious Construction.png",
+    "text": "Expeditious Construction Operation-Infrastructure Engineering O [>The next Fortification, Weapon, or Infrastructure you activate costs 2 less. You may shuffle up to 2 cards from your discard into your deck.} @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Swifthoof Harassers.png",
-    "text": "Swifthoof Harassers\n\nG $4: Negate target\n\ncombatant. [3]",
     "url": "CardImages/Oria/Swifthoof Harassers.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Swifthoof Harassers.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Swifthoof Harassers.png",
+    "text": "Swifthoof Harassers G $4: Negate target combatant. [3]",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Coordination.png",
-    "text": "Operation-Tactics\n\nWhenever you activate a Squadron,draw\n2cards.}\n\nCEQunegate target cardinaFrontin which\nyou control 2 or more Combatants. [1]\n\n@",
     "url": "CardImages/Oria/Coordination.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Coordination.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Coordination.png",
+    "text": "Operation-Tactics Whenever you activate a Squadron,draw 2cards.} CEQunegate target cardinaFrontin which you control 2 or more Combatants. [1] @",
+    "color": "#993200"
   },
   {
-    "folder": "Oria",
     "filename": "Oria Demo Team.png",
-    "text": "yOriaDemoTeam\n\nEngineer\n\nPD: Ifyou control 2 or more\nassets, give target combatant\n+2 Raze and drawacard.",
     "url": "CardImages/Oria/Oria Demo Team.png",
-    "thumb_url": "CardImages/Oria/thumbnails/Oria Demo Team.png"
+    "thumb_url": "CardImages/Oria/thumbnails/Oria Demo Team.png",
+    "text": "yOriaDemoTeam Engineer PD: Ifyou control 2 or more assets, give target combatant +2 Raze and drawacard.",
+    "color": "#993200"
   },
   {
-    "folder": "Cultists",
     "filename": "Storm Seers.png",
-    "text": "PStormSeers\n\nMisdirect (You may deploy this in\neither orientation.)\n\nf> choose one: Target player\ndiscardacard atrandom, you\ngain +1 leadership next round,\n\nor exilea card froma player's\ndiscard [3] twice.",
     "url": "CardImages/Cultists/Storm Seers.png",
-    "thumb_url": "CardImages/Cultists/thumbnails/Storm Seers.png"
+    "thumb_url": "CardImages/Cultists/thumbnails/Storm Seers.png",
+    "text": "PStormSeers Misdirect (You may deploy this in either orientation.) f> choose one: Target player discardacard atrandom, you gain +1 leadership next round, or exilea card froma player's discard [3] twice.",
+    "color": "#1f1a84"
   }
 ]
