@@ -90,7 +90,7 @@ searchInput.addEventListener('input', () => {
 
   searchResults.innerHTML = filtered.map(card => `
     <div class="search-result">
-      <a href="${card.url}" target="_blank" rel="noopener noreferrer">
+      <a href="${card.thumb_url}" target="_blank" rel="noopener noreferrer">
         <img src="${card.thumb_url}" alt="${card.filename}" loading="lazy">
       </a>
       <div>

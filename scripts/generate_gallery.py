@@ -85,7 +85,7 @@ def generate_folder_page(folder_name, images):
         thumb_path = f"CardImages/{folder_name}/thumbnails/{Path(img).name}"
         full_img_path = f"CardImages/{folder_name}/{Path(img).name}"
         html += rf"""    <div class="item">
-        <a href="{full_img_path}" target="_blank" rel="noopener noreferrer">
+        <a href="{thumb_path}" target="_blank" rel="noopener noreferrer">
             <img src="{thumb_path}" alt="{caption}" loading="lazy">
         </a>
         <div class="caption">{caption}</div>
@@ -189,7 +189,7 @@ searchInput.addEventListener('input', () => {{
 
   searchResults.innerHTML = filtered.map(card => `
     <div class="search-result">
-      <a href="${{card.url}}" target="_blank" rel="noopener noreferrer">
+      <a href="${{card.thumb_url}}" target="_blank" rel="noopener noreferrer">
         <img src="${{card.thumb_url}}" alt="${{card.filename}}" loading="lazy">
       </a>
       <div>
