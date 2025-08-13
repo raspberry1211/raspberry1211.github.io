@@ -78,11 +78,12 @@ def generate_folder_page(folder, images):
     for img in images:
         thumb_path = f"CardImages/{folder}/thumbnails/{img}"
         full_img_path = f"CardImages/{folder}/{img}"
+        caption = Path(img).stem
         html += f"""    <div class="item">
         <a href="{full_img_path}" target="_blank">
-            <img src="{thumb_path}" alt="{img}" loading="lazy">
+            <img src="{thumb_path}" alt="{caption}" loading="lazy">
         </a>
-        <div class="caption">{img}</div>
+        <div class="caption">{caption}</div>
     </div>
 """
 
@@ -109,6 +110,7 @@ def main():
                 subfolders.append(entry.name)
                 # Create thumbnails only if missing or outdated
                 for img_name in images:
+                    
                     src = entry / img_name
                     thumb = entry / "thumbnails" / img_name
                     make_thumbnail(src, thumb)
