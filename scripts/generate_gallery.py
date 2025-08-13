@@ -84,7 +84,7 @@ def generate_folder_page(folder_name, images):
         caption = Path(img).stem
         thumb_path = f"CardImages/{folder_name}/thumbnails/{Path(img).name}"
         full_img_path = f"CardImages/{folder_name}/{Path(img).name}"
-        html += f"""    <div class="item">
+        html += rf"""    <div class="item">
         <a href="{full_img_path}" target="_blank" rel="noopener noreferrer">
             <img src="{thumb_path}" alt="{caption}" loading="lazy">
         </a>
@@ -189,12 +189,12 @@ searchInput.addEventListener('input', () => {{
 
   searchResults.innerHTML = filtered.map(card => `
     <div class="search-result">
-      <a href="\${{card.url}}" target="_blank" rel="noopener noreferrer">
-        <img src="\${{card.thumb_url}}" alt="\${{card.filename}}" loading="lazy">
+      <a href="${{card.url}}" target="_blank" rel="noopener noreferrer">
+        <img src="${{card.thumb_url}}" alt="${{card.filename}}" loading="lazy">
       </a>
       <div>
-        <strong>\${{card.filename.replace(/\\.[^/.]+$/, "")}}</strong><br>
-        <small>\${{card.text.substring(0, 150).replace(/\\n/g, ' ')}}${{card.text.length > 150 ? '...' : ''}}</small>
+        <strong>${{card.filename.replace(/\\.[^/.]+$/, "").replace('.png', '')}}</strong><br>
+        <small>${{card.text.substring(0, 150).replace(/\\n/g, ' ')}}${{card.text.length > 150 ? '...' : ''}}</small>
       </div>
     </div>
   `).join('');

@@ -90,12 +90,12 @@ searchInput.addEventListener('input', () => {
 
   searchResults.innerHTML = filtered.map(card => `
     <div class="search-result">
-      <a href="\${card.url}" target="_blank" rel="noopener noreferrer">
-        <img src="\${card.thumb_url}" alt="\${card.filename}" loading="lazy">
+      <a href="${card.url}" target="_blank" rel="noopener noreferrer">
+        <img src="${card.thumb_url}" alt="${card.filename}" loading="lazy">
       </a>
       <div>
-        <strong>\${card.filename.replace(/\\.[^/.]+$/, "")}</strong><br>
-        <small>\${card.text.substring(0, 150).replace(/\\n/g, ' ')}${card.text.length > 150 ? '...' : ''}</small>
+        <strong>${card.filename.replace(/\\.[^/.]+$/, "").replace('.png', '')}</strong><br>
+        <small>${card.text.substring(0, 150).replace(/\\n/g, ' ')}${card.text.length > 150 ? '...' : ''}</small>
       </div>
     </div>
   `).join('');
