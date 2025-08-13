@@ -44,19 +44,25 @@ def generate_cards_json_and_copy_images():
         if not folder.is_dir():
             continue
 
-        thumb_dir = OUTPUT_DIR / "CardImages" / folder.name / "thumbnails"
-        thumb_dir.mkdir(parents=True, exist_ok=True)
-
-        for img_file in folder.iterdir():
-            if not img_file.is_file() or img_file.suffix.lower() not in ['.jpg', '.jpeg', '.png']:
+        # Process all files recursively in the folder and its subfolders
+        for img_file in folder.rglob('*.png'):
+            if not img_file.is_file():
                 continue
+
+            # Get the relative path from the source folder
+            rel_path = img_file.relative_to(folder)
+            
+            # Create thumbnail directory structure
+            thumb_dir = OUTPUT_DIR / "CardImages" / folder.name / rel_path.parent / "thumbnails"
+            thumb_dir.mkdir(parents=True, exist_ok=True)
 
             # Generate thumbnail
             thumb_path = thumb_dir / img_file.name
             create_thumbnail(img_file, thumb_path)
 
-            # Copy full image to docs/CardImages
-            full_img_out = OUTPUT_DIR / "CardImages" / folder.name / img_file.name
+            # Copy full image to docs/CardImages maintaining folder structure
+            full_img_out = OUTPUT_DIR / "CardImages" / folder.name / rel_path
+            full_img_out.parent.mkdir(parents=True, exist_ok=True)
             copy_file_if_newer(img_file, full_img_out)
 
             # Extract OCR text
@@ -65,11 +71,14 @@ def generate_cards_json_and_copy_images():
             # Extract top-right corner color
             color = get_top_right_color(img_file)
             
+            # Create URL that preserves the folder structure
+            url_path = f"CardImages/{folder.name}/{rel_path}"
+            thumb_url_path = f"CardImages/{folder.name}/{rel_path.parent}/thumbnails/{img_file.name}"
 
             cards.append({
                 "filename": img_file.name,
-                "url": f"CardImages/{folder.name}/{img_file.name}",
-                "thumb_url": f"CardImages/{folder.name}/thumbnails/{img_file.name}",
+                "url": url_path,
+                "thumb_url": thumb_url_path,
                 "text": ocr_text,
                 "color": color
             })
@@ -235,11 +244,13 @@ def generate_gallery_pages(cards):
     <style>
         body {{ font-family: Arial, sans-serif; max-width: 900px; margin: auto; }}
         h1 {{ text-align: center; }}
+        h2 {{ text-align: center; margin: 30px 0 20px 0; color: #333; }}
         .card-container {{
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
             justify-content: center;
+            margin-bottom: 40px;
         }}
         .card {{
             border: 1px solid #ccc;
@@ -284,16 +295,31 @@ def generate_gallery_pages(cards):
 <body>
     <a href="index.html" class="back-link">&larr; Back to all sets</a>
     <h1>{folder_name} Gallery</h1>
-    <div class="card-container">
 """
 
-        # Add each card's thumbnail and info
+        # Separate Leader cards from regular cards
+        leader_cards = []
+        regular_cards = []
+        
         for card in folder_cards:
-            # Escape any HTML special characters in text if needed (optional)
-            safe_filename = card['filename'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-            safe_text = card['text'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('\n', ' ')
+            # Check if the card is in a Leaders subfolder
+            if 'Leaders/' in card['url']:
+                leader_cards.append(card)
+            else:
+                regular_cards.append(card)
 
-            html += rf"""
+        # Add Leader cards section if there are any
+        if leader_cards:
+            html += """
+    <h2>Leaders</h2>
+    <div class="card-container">
+"""
+            for card in leader_cards:
+                # Escape any HTML special characters in text if needed (optional)
+                safe_filename = card['filename'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+                safe_text = card['text'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('\n', ' ')
+
+                html += rf"""
         <div class="card">
             <a href="{card['url']}" target="_blank" rel="noopener noreferrer">
                 <img src="{card['thumb_url']}" alt="{safe_filename}" loading="lazy">
@@ -302,9 +328,35 @@ def generate_gallery_pages(cards):
             <p>{safe_text[:150]}{'...' if len(safe_text) > 150 else ''}</p>
         </div>
 """
+            html += """
+    </div>
+"""
+
+        # Add regular cards section
+        if regular_cards:
+            html += """
+    <h2>Cards</h2>
+    <div class="card-container">
+"""
+            for card in regular_cards:
+                # Escape any HTML special characters in text if needed (optional)
+                safe_filename = card['filename'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+                safe_text = card['text'].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('\n', ' ')
+
+                html += rf"""
+        <div class="card">
+            <a href="{card['url']}" target="_blank" rel="noopener noreferrer">
+                <img src="{card['thumb_url']}" alt="{safe_filename}" loading="lazy">
+            </a>
+            <h3 style="color: {card['color']}">{safe_filename.replace(r'\.[^/.]+$', '').replace('.png', '')}</h3>
+            <p>{safe_text[:150]}{'...' if len(safe_text) > 150 else ''}</p>
+        </div>
+"""
+            html += """
+    </div>
+"""
 
         html += """
-    </div>
 </body>
 </html>
 """
