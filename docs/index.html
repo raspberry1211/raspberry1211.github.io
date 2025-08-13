@@ -65,17 +65,17 @@ let cards = [];
 
 fetch('cards.json')
   .then(res => res.json())
-  .then(data => {{
+  .then(data => {
     cards = data;
-  }});
+  });
 
-searchInput.addEventListener('input', () => {{
+searchInput.addEventListener('input', () => {
   const query = searchInput.value.trim().toLowerCase();
-  if (query.length === 0) {{
+  if (query.length === 0) {
     searchResults.innerHTML = '';
     folderList.style.display = 'block';
     return;
-  }}
+  }
 
   folderList.style.display = 'none';
   const filtered = cards.filter(card => 
@@ -83,23 +83,23 @@ searchInput.addEventListener('input', () => {{
     card.text.toLowerCase().includes(query)
   );
 
-  if (filtered.length === 0) {{
+  if (filtered.length === 0) {
     searchResults.innerHTML = '<p>No matching cards found.</p>';
     return;
-  }}
+  }
 
   searchResults.innerHTML = filtered.map(card => `
     <div class="search-result">
-        <a href="\${card.url}" target="_blank" rel="noopener noreferrer">
+      <a href="\${card.url}" target="_blank" rel="noopener noreferrer">
         <img src="\${card.thumb_url}" alt="\${card.filename}" loading="lazy">
-        </a>
-        <div>
+      </a>
+      <div>
         <strong>\${card.filename.replace(/\\.[^/.]+$/, "")}</strong><br>
-        <small>\${card.text.substring(0, 150).replace(/\\n/g, ' ')}\${card.text.length > 150 ? '...' : ''}</small>
-        </div>
+        <small>\${card.text.substring(0, 150).replace(/\\n/g, ' ')}${card.text.length > 150 ? '...' : ''}</small>
+      </div>
     </div>
-    `).join('');
-}});
+  `).join('');
+});
 </script>
 </body>
 </html>

@@ -100,7 +100,7 @@ def generate_folder_page(folder_name, images):
     (OUTPUT_DIR / f"{folder_name}.html").write_text(html, encoding="utf-8")
 
 def generate_index_page(subfolders, cards_json_filename="cards.json"):
-    html = f"""<!DOCTYPE html>
+    html = rf"""<!DOCTYPE html>
 <html>
 <head>
     <title>Card Gallery</title>
@@ -154,7 +154,7 @@ def generate_index_page(subfolders, cards_json_filename="cards.json"):
     for folder in subfolders:
         html += f'<li><a href="{folder}.html">{folder}</a></li>\n'
 
-    html += r"""
+    html += rf"""
 </ul>
 <script>
 const searchInput = document.getElementById('searchInput');
@@ -162,7 +162,7 @@ const searchResults = document.getElementById('searchResults');
 const folderList = document.getElementById('folderList');
 let cards = [];
 
-fetch('{cards_json}')
+fetch('{cards_json_filename}')
   .then(res => res.json())
   .then(data => {{
     cards = data;
@@ -189,21 +189,20 @@ searchInput.addEventListener('input', () => {{
 
   searchResults.innerHTML = filtered.map(card => `
     <div class="search-result">
-        <a href="\${card.url}" target="_blank" rel="noopener noreferrer">
-        <img src="\${card.thumb_url}" alt="\${card.filename}" loading="lazy">
-        </a>
-        <div>
-        <strong>\${card.filename.replace(/\\.[^/.]+$/, "")}</strong><br>
-        <small>\${card.text.substring(0, 150).replace(/\\n/g, ' ')}\${card.text.length > 150 ? '...' : ''}</small>
-        </div>
+      <a href="\${{card.url}}" target="_blank" rel="noopener noreferrer">
+        <img src="\${{card.thumb_url}}" alt="\${{card.filename}}" loading="lazy">
+      </a>
+      <div>
+        <strong>\${{card.filename.replace(/\\.[^/.]+$/, "")}}</strong><br>
+        <small>\${{card.text.substring(0, 150).replace(/\\n/g, ' ')}}${{card.text.length > 150 ? '...' : ''}}</small>
+      </div>
     </div>
-    `).join('');
+  `).join('');
 }});
 </script>
 </body>
 </html>
-""".replace("{cards_json}", cards_json_filename)
-
+"""
     (OUTPUT_DIR / "index.html").write_text(html, encoding="utf-8")
 
 def main():
