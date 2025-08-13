@@ -298,7 +298,7 @@ def generate_gallery_pages(cards):
             <a href="{card['url']}" target="_blank" rel="noopener noreferrer">
                 <img src="{card['thumb_url']}" alt="{safe_filename}" loading="lazy">
             </a>
-            <h3 style="color: {card['color']}">{safe_filename.replace(r'\.[^/.]+$', '')}</h3>
+            <h3 style="color: {card['color']}">{safe_filename.replace(r'\.[^/.]+$', '').replace('.png', '')}</h3>
             <p>{safe_text[:150]}{'...' if len(safe_text) > 150 else ''}</p>
         </div>
 """
