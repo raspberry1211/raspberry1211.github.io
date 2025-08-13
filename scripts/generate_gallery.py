@@ -154,7 +154,7 @@ def generate_index_page(subfolders, cards_json_filename="cards.json"):
     for folder in subfolders:
         html += f'<li><a href="{folder}.html">{folder}</a></li>\n'
 
-    html += """
+    html += r"""
 </ul>
 <script>
 const searchInput = document.getElementById('searchInput');
@@ -189,15 +189,15 @@ searchInput.addEventListener('input', () => {{
 
   searchResults.innerHTML = filtered.map(card => `
     <div class="search-result">
-      <a href="\${card.url}" target="_blank" rel="noopener noreferrer">
+        <a href="\${card.url}" target="_blank" rel="noopener noreferrer">
         <img src="\${card.thumb_url}" alt="\${card.filename}" loading="lazy">
-      </a>
-      <div>
+        </a>
+        <div>
         <strong>\${card.filename.replace(/\\.[^/.]+$/, "")}</strong><br>
-        <small>\${card.text.substring(0, 150).replace(/\\n/g, ' ')}${card.text.length > 150 ? '...' : ''}</small>
-      </div>
+        <small>\${card.text.substring(0, 150).replace(/\\n/g, ' ')}\${card.text.length > 150 ? '...' : ''}</small>
+        </div>
     </div>
-  `).join('');
+    `).join('');
 }});
 </script>
 </body>
