@@ -6,7 +6,7 @@ from PIL import Image
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".webp"}
 BASE_DIR = Path(".") / "CardImages"  # Look inside CardImages folder
 OUTPUT_DIR = Path(".")               # HTML files go here
-THUMBNAIL_SIZE = (300, 300)           # Max width, height
+THUMBNAIL_SIZE = (600, 600)           # Max width, height
 # --------------
 
 def make_thumbnail(src_path, thumb_path):
