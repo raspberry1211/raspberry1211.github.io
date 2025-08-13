@@ -38,6 +38,12 @@ def copy_file_if_newer(src_path, dest_path):
     if not dest_path.exists() or src_path.stat().st_mtime > dest_path.stat().st_mtime:
         shutil.copy2(src_path, dest_path)
 
+def rotate_image_90_degrees(src_path, dest_path):
+    """Rotate an image by 90 degrees clockwise and save it to dest_path"""
+    with Image.open(src_path) as img:
+        rotated_img = img.rotate(90, expand=True)  # 90 for counterclockwise rotation
+        rotated_img.save(dest_path)
+
 def generate_cards_json_and_copy_images():
     cards = []
     for folder in SOURCE_DIR.iterdir():
@@ -56,14 +62,29 @@ def generate_cards_json_and_copy_images():
             thumb_dir = OUTPUT_DIR / "CardImages" / folder.name / rel_path.parent / "thumbnails"
             thumb_dir.mkdir(parents=True, exist_ok=True)
 
+            # Check if this is a Leader image (in a Leaders subfolder)
+            is_leader = "Leaders" in str(rel_path)
+            
             # Generate thumbnail
             thumb_path = thumb_dir / img_file.name
-            create_thumbnail(img_file, thumb_path)
+            if is_leader:
+                # For Leader images, create rotated thumbnail
+                with Image.open(img_file) as img:
+                    rotated_img = img.rotate(90, expand=True)  # 90 for counterclockwise rotation
+                    rotated_img.thumbnail(THUMBNAIL_SIZE)
+                    thumb_path.parent.mkdir(parents=True, exist_ok=True)
+                    rotated_img.save(thumb_path)
+            else:
+                create_thumbnail(img_file, thumb_path)
 
             # Copy full image to docs/CardImages maintaining folder structure
             full_img_out = OUTPUT_DIR / "CardImages" / folder.name / rel_path
             full_img_out.parent.mkdir(parents=True, exist_ok=True)
-            copy_file_if_newer(img_file, full_img_out)
+            if is_leader:
+                # For Leader images, save rotated version
+                rotate_image_90_degrees(img_file, full_img_out)
+            else:
+                copy_file_if_newer(img_file, full_img_out)
 
             # Extract OCR text
             ocr_text = extract_ocr_text(img_file)
