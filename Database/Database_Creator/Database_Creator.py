@@ -5,3 +5,19 @@ In order to get the necessary data, download each sheet from the mark 4 card spr
 as a csv file, then put those csv files into the spreadsheet folder. This script assumes
 that the default name is used for each csv file.
 """
+
+# Import file parsing libraries
+import json
+import csv
+
+# Import os for iteration through files
+
+# Import Path for better file system navigation
+from pathlib import Path
+
+
+def main():
+    outputDict = {}
+
+if __name__ == "__main__":
+    main()
