@@ -11,6 +11,7 @@ import json
 import csv
 
 # Import os for iteration through files
+import os
 
 # Import Path for better file system navigation
 from pathlib import Path
