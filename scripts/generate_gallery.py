@@ -62,29 +62,15 @@ def generate_cards_json_and_copy_images():
             thumb_dir = OUTPUT_DIR / "CardImages" / folder.name / rel_path.parent / "thumbnails"
             thumb_dir.mkdir(parents=True, exist_ok=True)
 
-            # Check if this is a Leader image (in a Leaders subfolder)
-            is_leader = "Leaders" in str(rel_path)
             
             # Generate thumbnail
             thumb_path = thumb_dir / img_file.name
-            if is_leader:
-                # For Leader images, create rotated thumbnail
-                with Image.open(img_file) as img:
-                    rotated_img = img.rotate(90, expand=True)  # 90 for counterclockwise rotation
-                    rotated_img.thumbnail(THUMBNAIL_SIZE)
-                    thumb_path.parent.mkdir(parents=True, exist_ok=True)
-                    rotated_img.save(thumb_path)
-            else:
-                create_thumbnail(img_file, thumb_path)
+            create_thumbnail(img_file, thumb_path)
 
             # Copy full image to docs/CardImages maintaining folder structure
             full_img_out = OUTPUT_DIR / "CardImages" / folder.name / rel_path
             full_img_out.parent.mkdir(parents=True, exist_ok=True)
-            if is_leader:
-                # For Leader images, save rotated version
-                rotate_image_90_degrees(img_file, full_img_out)
-            else:
-                copy_file_if_newer(img_file, full_img_out)
+            copy_file_if_newer(img_file, full_img_out)
 
             # Extract OCR text
             ocr_text = extract_ocr_text(img_file)
@@ -115,7 +101,7 @@ def generate_index_page(subfolders, cards_json_filename="cards.json"):
     html = r"""<!DOCTYPE html>
 <html>
 <head>
-    <title>Card Gallery</title>
+    <title>Fronts Card Image Gallery</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 700px; margin: auto; }
         h1 { text-align: center; }
